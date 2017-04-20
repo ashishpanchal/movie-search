@@ -10,13 +10,13 @@ Pass `--limit=50` argument to set the limit for iTunes movie search.
 
 `node movie-search.js --limit=50`
 
-Default value is 3 if `limit` argument is not provided.
+Default value is `"3"` if `limit` argument is not provided.
 
 Pass `--keyword="movie name"` argument to set the term for iTunes movie search.
 
 `node movie-search.js --keyword="Yellow Submarine"`
 
-Default value is green if `keyword` argument is not provided.
+Default value is `"green"`  ` if `keyword` argument is not provided.
 
 ## Example
 Input:
