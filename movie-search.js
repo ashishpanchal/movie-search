@@ -22,7 +22,6 @@ if(cliOptions.limit>50) {
 	console.log("you exceeded max limit 50...");
 	return;
 }
-console.log(cliOptions);
 console.log('Your search options ',cliOptions);
 console.log('\n');
 
