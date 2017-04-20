@@ -1,21 +1,26 @@
 # iTunes Movie Search
 
-Command line application that searches iTunes movies with red, green, blue or yellow in the title. The output should display each matching movies details (title, year, runtime) and the first matching colour from the title. The application should allow specifying a limit for returned result set.
+Command line application that searches iTunes movies with red, green, blue or yellow in the title. The output should display each matching movies details (title, year, runtime) and the first matching colour from the title. The application should allow specifying a limit and keyword for returned result set.
 
 ## Install
-run `npm install` after cloning repo
+Run `npm install` after cloning repo
 
 ## Usage
-pass `--limit=50` argument to set the limit for iTunes movie search.
-`node movie-search.js --limit=50`
-default value is 3 if `limit` argument is not provided.
+Pass `--limit=50` argument to set the limit for iTunes movie search.
 
-pass `--keyword="movie name"` argument to set the term for iTunes movie search.
+`node movie-search.js --limit=50`
+
+Default value is `"3"` if `limit` argument is not provided.
+
+Pass `--keyword="movie name"` argument to set the term for iTunes movie search.
+
 `node movie-search.js --keyword="Yellow Submarine"`
-default value is green if `keyword` argument is not provided.
+
+Default value is `"green"`  if `keyword` argument is not provided.
 
 ## Example
 Input:
+
 `node movie-search.js --limit=50 --keyword="Fast and"`
 
 Output:
