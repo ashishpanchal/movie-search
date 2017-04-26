@@ -24,6 +24,6 @@
   },
   "scripts": {
     "start": "node movie-search.js --limit=50  --keyword='green'",
-    "test": "./node_modules/mocha/bin/mocha movie-search-test.js --timeout 30000"
+    "test": "./node_modules/mocha/bin/mocha --timeout 30000"
   }
 }
