@@ -53,3 +53,7 @@ Red Light Green Light , 52mins , 2013 , RED
 ```
 
 If search result do not have any matching color in the title then it will display in white.
+
+## Test
+
+`npm test`
