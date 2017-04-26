@@ -16,5 +16,14 @@
     "colors": "^1.1.2",
     "command-line-args": "^4.0.2",
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node movie-search.js --limit=50  --keyword='green'",
+    "test": "./node_modules/mocha/bin/mocha movie-search-test.js --timeout 30000"
   }
 }
